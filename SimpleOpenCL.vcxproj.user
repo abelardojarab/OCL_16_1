@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='AlteraOpenCL|x64'">
+    <LocalDebuggerEnvironment>CL_CONTEXT_EMULATOR_DEVICE_ALTERA=s5_ref
+PATH=c:\altera\16.0\hld\host\windows64\bin;$(PATH)
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IntelFPGAOpenCL|x64'">
+    <LocalDebuggerEnvironment>CL_CONTEXT_EMULATOR_DEVICE_ALTERA=s5_ref
+PATH=c:\intelFPGA\16.1\hld\host\windows64\bin;$(PATH)
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

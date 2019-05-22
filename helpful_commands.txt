@@ -1,0 +1,8 @@
+#initiazation script
+opencl_init.bat
+
+#compile for emulation
+aoc -march=emulator --board s5_ref SimpleKernel.cl
+
+#compile for FPGA, stopping after the object file is generated
+aoc --board s5_ref -c SimpleKernel_For.cl
