@@ -1,2 +1,6 @@
 build/*
 bin/*
+*.aoco
+*.aocx
+*.html
+report*/*
